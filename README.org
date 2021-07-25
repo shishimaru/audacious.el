@@ -1,0 +1,55 @@
+* audacious.el
+
+Emacs interface of a music player, [Audacious](https://audacious-media-player.org "Audacious Home").
+
+* Setup
+** Install Audacious.
+For Ubuntu users, please install by apt.
+
+: sudo apt install audacious
+
+* Dependency
+Some features use `helm` and please install beforehand.
+
+* Usage
+** Start audacious as daemon
+: M-x audacious-run
+
+** Kill audacious daemon
+: M-x audacious-kill
+
+** Playback
+: M-x audacious-play
+: M-x audacious-pause
+: M-x audacious-stop
+: M-x audacious-status
+
+** Control volume
+: M-x audacious-volume
+: M-x audacious-volume-up
+: M-x audacious-volume-down
+
+** Select playlist
+: M-x audacious-playlist-goto
+: M-x audacious-playlist-next
+: M-x audacious-playlist-prev
+: M-x audacious-playlist-show-current-info
+
+** Select a song in the current playlist
+: M-x audacious-song-goto
+: M-x helm-audacious-song-goto
+: M-x audacious-song-next
+: M-x audacious-song-prev
+: M-x audacious-song-show-current-info
+
+** Seek in a song
+: M-x audacious-song-seek
+: M-x audacious-song-seek-forward
+: M-x audacious-song-seek-backward
+
+** Toggle playback modes
+: M-x audacious-random-toggle
+: M-x audacious-repeat-toggle
+
+* License
+GPLv3
