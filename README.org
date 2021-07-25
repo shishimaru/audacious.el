@@ -2,6 +2,9 @@
 
 Emacs interface of a music player, [Audacious](https://audacious-media-player.org "Audacious Home").
 
+#+attr_html: :width 1200px
+[[file:screenshot.png]]
+
 * Setup
 ** Install Audacious.
 For Ubuntu users, please install by apt.
