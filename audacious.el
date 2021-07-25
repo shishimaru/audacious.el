@@ -101,10 +101,10 @@
 (defun helm-audacious-song-goto ()
   "Select a song with helm interface."
   (interactive)
-  (let ((title (helm :sources (helm-build-sync-source "audel"
+  (let ((title (helm :sources (helm-build-sync-source "audacious"
                                 :candidates (butlast (butlast (cdr (split-string (shell-command-to-string "audtool --playlist-display") "\n"))))
                                 :fuzzy-match nil)
-                     :buffer "*helm audel*")))
+                     :buffer "*helm audacious*")))
     (if title
         (progn
           (setq num (string-trim (car (split-string title "|"))))
