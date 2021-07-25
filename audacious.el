@@ -9,6 +9,8 @@
 ;; audacious.el is an Emacs package to control the playback functions of audacious.
 ;; It depends on a command audtool installed with audacious.
 
+;;; Code:
+
 (defcustom audacious-command (executable-find "audtool")
   "CL interface of audacious."
   :type 'string
@@ -230,3 +232,4 @@
     nil))
 
 (provide 'audacious)
+;;; audacious.el ends here
