@@ -1,6 +1,6 @@
 * audacious.el
 
-Emacs interface of a music player, [Audacious](https://audacious-media-player.org "Audacious Home").
+Emacs interface of a music player, [[https://audacious-media-player.org "Audacious Home"][Audacious]].
 
 #+attr_html: :width 1200px
 [[file:screenshot.png]]
