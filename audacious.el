@@ -48,7 +48,7 @@
   "Start to play."
   (interactive)
   (if (string-equal (shell-command-to-string "audtool --playback-status") "")
-      (audacious-start))
+      (audacious-run))
   (call-process audacious-command nil nil nil "--playback-play")
   (sleep-for 0 20)
   (audacious-song-show-current-info))
