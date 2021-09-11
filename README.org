@@ -40,7 +40,7 @@ Some features use `helm` and please install beforehand.
 
 ** Select a song in the current playlist
 : M-x audacious-song-goto
-: M-x helm-audacious-song-goto
+: M-x audacious-song-goto-helm
 : M-x audacious-song-next
 : M-x audacious-song-prev
 : M-x audacious-song-show-current-info
